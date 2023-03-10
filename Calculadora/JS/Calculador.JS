@@ -134,4 +134,5 @@ function calculo(){
         txtoperador.value = "";
         break;
     }
+
 }

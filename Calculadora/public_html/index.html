@@ -11,56 +11,71 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/Calculadora/styles/style.css" rel="stylesheet" type="text/css" />
 </head>
+<script defer src="/Calculadora/JS/Calculador.JS"></script>
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<style>
+    .btn-50 {width: 50px;}
+</style>
 <body>
     <div>
         <h1>Calculadora V1.0 - Fatec Bragança Paulista</h1>
-    </div class = calc>
+    </div>
     <form>
-        <div class="container">
-            <div class="display">
-
-                <input type="text" id="auxiliar" value="0" readonly="readonly" />
-                <br>
-                <input type="text" id="display" value="0" readonly="readonly" />
-                <div class="operation">
-                    <input type="text" id="operador" value="" readonly="readonly" />
-                    <br>
-                </div>
+        <div class="container" style="width: 26%; ">
+            <div class="row">
+                <input class="col s11 right-align" style = "margin-left: 15px;" type="text" id="auxiliar" value="0" readonly="readonly" />
+            </div>
+            <div class="row">
+                <input class="col s11 right-align" style = "margin-left: 15px;" type="text" id="display" value="0" readonly="readonly" />
+            </div>
+            <div class="row">
+                <input class="col s11 center-align" style = "margin-left: 15px;" type="text" id="operador" value="" readonly="readonly" />
             </div>
 
 
             <div class="buttons">
                 <div>
-                    <input type="button" id="b7" value="7" />
-                    <input type="button" id="b8" value="8" />
-                    <input type="button" id="b9" value="9" />
-                    <input type="button" id="bMult" value="X" />
+                    <input type="button" class="btn black" id="b7" value="7" />
+                    <input type="button" class="btn black" id="b8" value="8" />
+                    <input type="button" class="btn black" id="b9" value="9" />
+                    <input type="button" class="btn orange" id="bMult" value="X" />
                 </div>
                 <div>
-                    <input type="button" id="b4" value="4" />
-                    <input type="button" id="b5" value="5" />
-                    <input type="button" id="b6" value="6" />
-                    <input type="button" id="bDiv" value="/" />
+                    <input type="button" class="btn black" id="b4" value="4" />
+                    <input type="button" class="btn black" id="b5" value="5" />
+                    <input type="button" class="btn black" id="b6" value="6" />
+                    <input type="button" class="btn orange" id="bDiv" value="/" />
                 </div>
                 <div>
-                    <input type="button" id="b1" value="1" />
-                    <input type="button" id="b2" value="2" />
-                    <input type="button" id="b3" value="3" />
-                    <input type="button" id="bSoma" value="+" />
+                    <input type="button" class="btn black" id="b1" value="1" />
+                    <input type="button" class="btn black" id="b2" value="2" />
+                    <input type="button" class="btn black" id="b3" value="3" />
+                    <input type="button" class="btn orange" id="bSoma" value="+" />
                 </div>
                 <div>
-                    <input type="button" id="b0" value="0" />
-                    <input type="button" id="bPonto" value="." />
-                    <input type="button" id="bIgual" value="=" />
-                    <input type="button" id="bSub" value="-" />
+                    <input type="button" class="btn black" id="b0" value="0" />
+                    <input type="button" class="btn black" id="bPonto" value="." />
+                    <input type="button" class="btn black" id="bIgual" value="=" />
+                    <input type="button" class="btn orange" id="bSub" value="-" />
                 </div>
                 <div>
-                    <input type="button" id="bDel" value="CE" />
+                    <input type="button" class="btn orange" id="bDel" value="CE" />
                 </div>
             </div>
     </form>
-    <script src="/Calculadora/JS/Calculador.JS"></script>
+    <!--
+        <script src="/Calculadora/JS/Calculador.JS"></script>
+    -->
     </div>
 </body>
 
