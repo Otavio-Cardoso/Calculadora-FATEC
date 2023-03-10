@@ -5,11 +5,12 @@
     border-radius: 10px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
     padding: 30px;
+    background-color: lightgray;
 }
 
 body {
     margin: 0px;
-    background-color: lightgray;
+    background-color: gray;;
 }
 
 h1 {
@@ -26,7 +27,7 @@ h1 {
     height: 60px;
         font-size: 25px;
         font: bold;
-        border: 2px lightgray;
+        border: 2px  gray;
         text-align: right;
         margin: 2px;
         box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
